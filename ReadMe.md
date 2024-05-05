@@ -183,7 +183,36 @@ Yes
 
 ## Roadmap
 
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
+- Finalise design and create client side structure and scss - with routes etc
+
+- Create server
+    - express project with routing, with placeholder 200 responses
+
+- Create migrations
+
+- Utilise the available Legal API's
+
+- Create seeds with sample data
+
+- Feature: Document Creation
+
+- Feature: Company Details
+
+- Feature: Legal terminology
+
+- Feature: Home page
+
+- Feature: Create account
+    - Implement register page + form
+    - Create POST /users/register endpoint
+
+- Feature: Login
+    - Implement login page + form
+    - Create POST /users/login endpoint
+
+- Feature: Implement JWT tokens
+    - Server: Update expected requests / responses on protected endpoints
+    - Client: Store JWT in local storage, include JWT on axios calls
 
 - Bug fixes
 
